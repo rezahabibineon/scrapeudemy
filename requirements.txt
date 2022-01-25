@@ -2,3 +2,6 @@ bs4
 html5
 pandas
 requests
+
+fastapi
+uvicorn

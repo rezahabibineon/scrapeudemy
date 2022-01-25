@@ -6,7 +6,7 @@ from apps.controller import NewsController
 router = APIRouter()
 
 @router.get("/get_news")
-async def get_news(num_news : Optional[int]=Query(None, example=10)):
+async def get_news(num_news : Optional[int]=Query(None, example=1)):
     total, data =  NewsController.get_news(num_news)
     return {
         "total": total,

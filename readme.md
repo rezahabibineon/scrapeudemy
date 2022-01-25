@@ -1,1 +1,0 @@
-scrape news using bs4 and build its api using fastapi
