@@ -1,4 +1,3 @@
-from functools import total_ordering
 from typing import Optional
 from fastapi import APIRouter, Query
 from apps.controller import NewsController
